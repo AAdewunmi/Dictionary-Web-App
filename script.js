@@ -31,10 +31,6 @@ const handle = async (e) => {
       if (synonymsArray.length) {
         for (let i = 0; i < synonymsArray.length; i++) {
           synonymsData += `<p class="pills">${synonymsArray[i]}</p>`;
-
-          //example
-          // data = data + 1;
-          // data += 1;
         }
       } else {
         synonymsData = `<p class="pills">No Synonyms Available</p>`;
